@@ -1,0 +1,16 @@
+#include <iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    long int w;
+    float ib;
+    cin >> w;
+    cin >> ib;
+    if (w % 5 == 0)
+        cout << fixed <<setprecision(2)<< ((float)ib - w)-0.50 << endl;
+    else
+        cout << fixed<< setprecision(2)<<(float)ib << endl;
+
+    return 0;
+}
