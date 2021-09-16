@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main(){
+    char a;
+    cin>>a;
+    for (int i = 'a'; i <='z'; i++)
+    {
+        cout<<"ascii values of "<<(char)i<< " is "<< i<<endl;
+    }
+    
+return 0;
+}
